@@ -1,0 +1,35 @@
+Min Heap of Integers:
+    └── 15
+└── 2
+        └── 20
+    └── 5
+        └── 10
+The Min val is 2
+    └── 15
+└── 5
+    └── 10
+        └── 20
+
+Min Heap of Floats:
+    └── 15.8
+└── 2.1
+        └── 20.7
+    └── 5.2
+        └── 10.5
+The Min val is 2.1
+    └── 15.8
+└── 5.2
+    └── 10.5
+        └── 20.7
+
+Min Heap of Persons:
+    └── Person{name='Alice', age=25}
+└── Person{name='Charlie', age=20}
+        └── Person{name='Eve', age=28}
+    └── Person{name='David', age=22}
+        └── Person{name='Bob', age=30}
+The Min val is Person{name='Charlie', age=20}
+    └── Person{name='Alice', age=25}
+└── Person{name='David', age=22}
+    └── Person{name='Eve', age=28}
+        └── Person{name='Bob', age=30}
